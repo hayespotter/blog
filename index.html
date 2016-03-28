@@ -5,7 +5,7 @@ layout: default
 <main class="content" role="main">
 
   <header class="blog-header">
-      <h1 class="blog-title">{{ site.title }}</h1>
+      <a href="{{ my_page.url | prepend: site.baseurl }}"><h1 class="blog-title">{{ site.title }}</h1></a>
       <h2 class="blog-description">{{ site.description }}</h2>
   </header>
 
